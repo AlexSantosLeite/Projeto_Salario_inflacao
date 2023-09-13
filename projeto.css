@@ -1,0 +1,57 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #20202c, #343449);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #1abc9c;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background: linear-gradient(to bottom, #f39c12, #e67e22);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #e67e22, #d35400);
+}
+
+.output {
+    margin-top: 20px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: #333;
+}
